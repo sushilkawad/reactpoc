@@ -1,0 +1,29 @@
+.sortby{
+    margin: 20px 0;
+}
+
+.sortby span{
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.sortby .active{
+    color: #4368ea;
+    border-bottom: 1px #4368ea solid;
+}
+
+.mobile-header{
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    background: #fff;
+    left: 0;
+    top: 42px;
+}
+
+.mobile-header div{
+    padding:10px 0;
+    cursor: pointer;
+    text-align: center;
+    flex: 1;
+}

@@ -1,0 +1,44 @@
+.main-header{
+    background: #4368ea;
+    padding:10px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+
+.main-header i,
+.main-header a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.main-header .fa-shopping-cart{
+    font-size: 20px;
+}
+
+.count{
+    background: red;
+    height: 15px;
+    width: 15px;
+    display: block;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    right: 0px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#search{
+    border:0;
+    background: transparent;
+    border-bottom: 1px #fff solid;
+    color: #fff;
+    outline: none;
+}
+
+#search::placeholder{
+    color: #fff;
+}

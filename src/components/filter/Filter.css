@@ -1,0 +1,20 @@
+
+.filter-wrapper{
+    border-right: 1px #000 solid;
+    padding:10px 20px;
+}
+
+.main-filter{
+    position: sticky;
+    top: 42px;
+}
+
+.filter-wrapper button{
+    background: #4368ea;
+    padding: 10px 20px;
+    border: none;
+    color: #fff;
+    border-radius: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+}
