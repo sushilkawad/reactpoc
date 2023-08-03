@@ -17,7 +17,7 @@ const MainHeader = React.memo(() => {
   const videoConstraints = {
     width: { min: 480 },
     height: { min: 720 },
-    // facingMode: { exact: "environment" },
+    facingMode: { exact: "environment" },
   };
 
   const capture = useCallback(async () => {
