@@ -11,7 +11,7 @@ const MainHeader = React.memo(() => {
 
     return (
         <header className="main-header d-flex justify-content-space-between">
-            <Link to="/">Home 1</Link>
+            <Link to="/">Home1</Link>
             {pathname !== '/cart' && <div className="mr-10">
                 <input type="text" onChange={(e) => { setSearch(e.target.value); handleSearch(e) }} id="search" value={search} placeholder="Search" />
                 <Link to="/cart">

@@ -1,7 +1,7 @@
 import { Switch, Route } from 'react-router-dom';
 import CartPage from './containers/CartPage';
 import HomePage from './containers/HomePage';
-import QR from './components/QR';
+import QR from './containers/Qr';
 
 function RoutingHolder() {
 
