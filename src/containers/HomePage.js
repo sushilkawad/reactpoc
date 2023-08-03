@@ -15,6 +15,7 @@ export default function HomePage() {
       </aside>
       <main className="home-page flex-3 home-main p-10">
         <Header />
+    asdasd
         <div className="d-flex">
           <main className="d-flex flex-2 flex-wrap p-10 gap-10">
             {
