@@ -38,7 +38,7 @@ const Header = React.memo(() => {
                 </div>
             </header>
             <header className="hideOnDesktop mobile-header border-tb">
-                <div onClick={() => handleModal({ status: true, modalName: 'sort' })}>Sort 111</div>
+                <div onClick={() => handleModal({ status: true, modalName: 'sort' })}>Sort</div>
                 <div onClick={() => handleModal({ status: true, modalName: 'filter' })}>Filter</div>
             </header>
             <Modal isOpen={isModalOpen} sortBy={sortBy} data={modalData} handleModal={handleModal} />
